@@ -1,11 +1,10 @@
 <div class="container">
     <div class="row">
-      
         <div class="col">
             <h5>Ingrese búsqueda</h5>
             <input type="text" name="name" class="form-control" placeholder="Ingresar búsqueda" style="width:fit-content ;">
         </div>
-        <div class="col-md">
+        <div class="col">
             <h5>Búsqueda por</h5>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="documentoSelección1" id="inlineRadio1" value="option1">
@@ -16,59 +15,97 @@
                 <label class="form-check-label" for="inlineRadio2"><h5>Solicitud</h5></label>
             </div>   
         </div>
+    </div>
+
+    <div class="container"></div>
         <div class="row">
-            <div class="col-md">
+            <div class="col-auto">
                 <h5>Fecha desde</h5>
-                <div class="input-group mb-6">                     
-                    <input type="date" name="fechaDesde" class="form-control" style="width:fit-content;"><button class="btn btn-outline-secondary" type="button" id="button-addon2">...</button>
+                <div class="input-group col-auto">                     
+                    <input type="text" name="fechaDesde" placeholder="Ingresar fecha" class="form-control" style="width:fit-content;"><button class="btn btn-outline-secondary" type="button" id="button-addon2" >...</button>
                     <ul class="dropdown-menu dropdown-menu-end">
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     </ul>
                 </div> 
             </div>
             
-            <div class="col-md">
+            <div class="col-auto">
                 <h5>Fecha hasta</h5>
-                <div class="input-group mb-6">                     
-                    <input type="date" name="fechaHasta" class="form-control" placeholder="Ingresar fecha" style="width:fit-content;"><button class="btn btn-outline-secondary" type="button" id="button-addon2">...</button>
+                <div class="input-group mb-2">                     
+                    <input type="text" name="fechaHasta" class="form-control" placeholder="Ingresar fecha" style="width:fit-content;"><button class="btn btn-outline-secondary"  type="button" id="button-addon2">...</button>
                     <ul class="dropdown-menu dropdown-menu-end">
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     </ul>
                 </div> 
+            </div>
+            
+            
+                <div class="col-auto">
+                    <h5>Estados</h5>
+                    <div class="input-group col-auto">                     
+                        <input type="text" name="name" class="form-control" placeholder="Estado" style="width:fit-content;"><select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example" ></select>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </div> 
+                </div>
+           
+                <div class="col-auto">
+                    <h5>Sucursales</h5>
+                    <div class="input-group col-auto">                     
+                        <input type="text" name="name" class="form-control" placeholder="Sucursales" style="width:fit-content;"><select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example" ></select>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </div> 
+                </div>
+           
+                <div class="col-auto">
+                    <h5>Tipos</h5>
+                    <div class="input-group col-auto">                     
+                        <input type="text" name="name" class="form-control" placeholder="Tipos" style="width:fit-content;"><select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example" ></select>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </div> 
+                </div>
+            <div class="col" style="position:relative; margin-top: 30px;" ><button class="btn btn-primary">Buscar</button></div>
             </div>
         </div>
+        
 
-        <div class="row">
-            <div class="col-md">
-                <h5>Estados</h5>
-                <div class="input-group mb-6">                     
-                    <input type="text" name="name" class="form-control" placeholder="Estado" style="width:fit-content;"><select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example" ></select>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                </div> 
-            </div>
-
-            <div class="col-md">
-                <h5>Sucursales</h5>
-                <div class="input-group mb-6">                     
-                    <input type="text" name="name" class="form-control" placeholder="Sucursales" style="width:fit-content;"><select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example" ></select>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                </div> 
-            </div>
-
-            <div class="col-md">
-                <h5>Tipos</h5>
-                <div class="input-group mb-6">                     
-                    <input type="text" name="name" class="form-control" placeholder="Tipos" style="width:fit-content;"><select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example" ></select>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                </div> 
-            </div>
-            <div class="col md-6" style="position:relative; margin-top: 30px;" ><button class="btn btn-primary">Buscar</button></div>
+        
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    
             
             
             
@@ -77,8 +114,7 @@
             
             
             
-            
-        </div>
+        
            
            
            
@@ -91,9 +127,9 @@
       
       
       
-      
-    </div>
-  </div>
+
+
+
 
 
 
