@@ -5,14 +5,17 @@ import { AppComponent } from './app.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 import { ListadoComponent } from './listado/listado.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     BusquedaComponent,
-    ListadoComponent
+    ListadoComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
